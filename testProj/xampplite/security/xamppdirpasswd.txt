@@ -1,0 +1,2 @@
+XAMPP user = root
+XAMPP password = 1erfolg1
