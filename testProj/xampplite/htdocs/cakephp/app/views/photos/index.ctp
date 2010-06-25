@@ -1,85 +1,70 @@
-<div class="photos index">
-	<h2><?php __('Photos');?></h2>
-	<table cellpadding="0" cellspacing="0">
-	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('created');?></th>
-			<th><?php echo $this->Paginator->sort('title');?></th>
-			<th><?php echo $this->Paginator->sort('description');?></th>
-			<th><?php echo $this->Paginator->sort('width');?></th>
-			<th><?php echo $this->Paginator->sort('height');?></th>
-			<th><?php echo $this->Paginator->sort('geo_lat');?></th>
-			<th><?php echo $this->Paginator->sort('geo_long');?></th>
-			<th><?php echo $this->Paginator->sort('aperture');?></th>
-			<th><?php echo $this->Paginator->sort('exposuretime');?></th>
-			<th><?php echo $this->Paginator->sort('focallength');?></th>
-			<th><?php echo $this->Paginator->sort('views');?></th>
-			<th><?php echo $this->Paginator->sort('original_filename');?></th>
-			<th><?php echo $this->Paginator->sort('user_id');?></th>
-			<th><?php echo $this->Paginator->sort('user_name');?></th>
-			<th><?php echo $this->Paginator->sort('upload_complete');?></th>
-			<th class="actions"><?php __('Actions');?></th>
-	</tr>
-	<?php
-	$i = 0;
-	foreach ($photos as $photo):
-		$class = null;
-		if ($i++ % 2 == 0) {
-			$class = ' class="altrow"';
+﻿<?php if($results) { ?>
+	<table>
+	  <tr>
+		<th>id</th>
+		<th>title</th>
+		<th>description</th>
+		<th>tags</th>
+		<th>views</th>
+		<th>created</th>
+		<th>author</th>
+		<th>rating</th>
+	  </tr>
+	  <!-- php echo "DATABASE RESULT<br />"?>
+	  < php var_dump($comments);?>
+	  < php echo "<br /><br />-->
+	  <?php foreach($results as $result) {?>
+	  <tr>
+		<td><?php echo $result["Photo"]["id"] ?></td>
+		<td><?php echo $html->link($result["Photo"]["title"], "/photos/");?></td>
+		<td><?php echo $result["Photo"]["description"] ?></td>
+		<td><?php foreach($result["Tag"] as $t) {echo $t["tag_name"]."<br />";} ?></td>
+		<td><?php echo $result["Photo"]["views"] ?></td>    
+		<td><?php echo $result["Photo"]["created"] ?></td>    
+		<td><?php echo $result["Photo"]["user_name"] ?></td>    
+		<td><?php $rt=0; foreach($result["Rating"] as $r) {$rt+=$r["value"];} if(sizeof($result["Rating"])>0)$rt=$rt/sizeof($result["Rating"]); else $rt=0; echo $rt; ?></td>    
+	  </tr>
+	  <?php }?>
+	</table> 
+<?php }?>
+<?php 
+	if($resultsx) { 
+		$x = $xml;
+		$xs = "";
+		$xs .= $x->header();
+		$x->addNS('pp', 'http://www-mmt.inf.tu-dresden.de/Lehre/Sommersemester_10/Vo_WME/Uebung/material/photonpainter');
+		$xs .=  $x->elem('pp:photos', null, null, false).">";
+		foreach ($resultsx as $row) {
+			$row['Photo']['author'] = 1;
+			unset($row['Photo']['user_id']);
+			$description = $row['Photo']['description'];
+			unset($row['Photo']['description']);
+			$xs .=  $x->elem('pp:photo', $row['Photo'], null, false).">";
+				$xs .=  $x->elem('pp:comments', null, null, false).">";
+					foreach ($row['Comment'] as $r) {
+						$comment_text = $r['comment_text'];
+						unset($r['comment_text']);
+						$xs .=  $x->elem('pp:comment', $r, $comment_text, false);
+						$xs .=  $x->closeElem();
+					}
+				$xs .=  $x->closeElem();	
+				$xs .=  $x->elem('pp:ratings', null, null, false).">";	
+					foreach ($row['Rating'] as $r) {
+						$xs .=  $x->elem('pp:rating', $r, null, false).">";
+						$xs .=  $x->closeElem();
+					}
+				$xs .=  $x->closeElem();
+				$xs .=  $x->elem('pp:tags', null, null, false).">";
+					foreach ($row['Tag'] as $r) {
+						$xs .=  $x->elem('pp:tag', $r, $r['tag_name'], false);
+						$xs .=  $x->closeElem();
+					}
+				$xs .=  $x->closeElem();
+				$xs .=  $x->elem('pp:description', null, $description, false);
+				$xs .=  $x->closeElem();
+			$xs .=  $x->closeElem();
 		}
-	?>
-	<tr<?php echo $class;?>>
-		<td><?php echo $photo['Photo']['id']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['created']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['title']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['description']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['width']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['height']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['geo_lat']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['geo_long']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['aperture']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['exposuretime']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['focallength']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['views']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['original_filename']; ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($photo['User']['id'], array('controller' => 'users', 'action' => 'view', $photo['User']['id'])); ?>
-		</td>
-		<td><?php echo $photo['Photo']['user_name']; ?>&nbsp;</td>
-		<td><?php echo $photo['Photo']['upload_complete']; ?>&nbsp;</td>
-		<td class="actions">
-			<?php echo $this->Html->link(__('View', true), array('action' => 'view', $photo['Photo']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $photo['Photo']['id'])); ?>
-			<?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $photo['Photo']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $photo['Photo']['id'])); ?>
-		</td>
-	</tr>
-<?php endforeach; ?>
-	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%', true)
-	));
-	?>	</p>
-
-	<div class="paging">
-		<?php echo $this->Paginator->prev('<< ' . __('previous', true), array(), null, array('class'=>'disabled'));?>
-	 | 	<?php echo $this->Paginator->numbers();?>
- |
-		<?php echo $this->Paginator->next(__('next', true) . ' >>', array(), null, array('class' => 'disabled'));?>
-	</div>
-</div>
-<div class="actions">
-	<h3><?php __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Photo', true), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users', true), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New User', true), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Comments', true), array('controller' => 'comments', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Comment', true), array('controller' => 'comments', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Ratings', true), array('controller' => 'ratings', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Rating', true), array('controller' => 'ratings', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Tags', true), array('controller' => 'tags', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Tag', true), array('controller' => 'tags', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+		$xs .=  $x->closeElem();
+		?><textarea style="height:200px; font-size:10pt;"><?php echo $xs;?></textarea><?php
+	}
+?>  

@@ -24,5 +24,23 @@ class Tag extends AppModel {
 			'order' => ''
 		)
 	);
+
+/*
+	var $hasAndBelongsToMany = array(
+			'Photo' => array(
+				'className' => 'Photo',
+				'joinTable'	=> 'tags_photos',
+				'foreignKey' => 'tag_id',
+				'associationForeignKey'  => 'photo_id',
+				'conditions'             => '',
+				'order'                  => '',
+				'limit'                  => '',
+				'unique'                 => true,
+				'finderQuery'            => '',
+				'deleteQuery'            => '',
+				'insertQuery'            => ''
+			)
+		);	
+	*/
 }
 ?>

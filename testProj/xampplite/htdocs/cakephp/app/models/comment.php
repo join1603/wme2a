@@ -3,6 +3,6 @@
 class Comment extends AppModel {
 
        	var $name = "Comments";
-	var $displayField = 'title'; 
+		//var $displayField = 'title'; 
 }
 ?>

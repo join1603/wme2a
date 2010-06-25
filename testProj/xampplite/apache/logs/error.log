@@ -1,194 +1,68 @@
-[Tue Jun 15 09:55:59 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 15 09:55:59 2010] [notice] Digest: done
-[Tue Jun 15 09:56:01 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Tue Jun 15 09:56:01 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Tue Jun 15 09:56:01 2010] [notice] Parent: Created child process 3328
-[Tue Jun 15 09:56:01 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 15 09:56:01 2010] [notice] Digest: done
-[Tue Jun 15 09:56:01 2010] [notice] Child 3328: Child process is running
-[Tue Jun 15 09:56:01 2010] [notice] Child 3328: Acquired the start mutex.
-[Tue Jun 15 09:56:01 2010] [notice] Child 3328: Starting 150 worker threads.
-[Tue Jun 15 09:56:01 2010] [notice] Child 3328: Starting thread to listen on port 443.
-[Tue Jun 15 09:56:01 2010] [notice] Child 3328: Starting thread to listen on port 80.
-[Tue Jun 15 09:56:42 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/perl.pl
-[Tue Jun 15 09:56:42 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/asp.asp
-Adding password for user root
-[Tue Jun 15 10:00:29 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/perl.pl
-[Tue Jun 15 10:00:29 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/asp.asp
-[Tue Jun 15 10:00:31 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/perl.pl
-[Tue Jun 15 10:00:31 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/asp.asp
-[Tue Jun 15 10:00:34 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/perl.pl
-[Tue Jun 15 10:00:34 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/asp.asp
-[Tue Jun 15 10:00:35 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/perl.pl
-[Tue Jun 15 10:00:35 2010] [error] [client 127.0.0.1] script not found or unable to stat: C:/Profile/s5847066/Desktop/xampplite/htdocs/xampp/asp.asp
-[Tue Jun 15 10:09:35 2010] [error] [client 127.0.0.1] File does not exist: C:/Profile/s5847066/Desktop/xampplite/htdocs/cake
-[Tue Jun 15 11:20:09 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Tue Jun 15 11:20:09 2010] [notice] Child 3328: Exit event signaled. Child process is ending.
-[Tue Jun 15 11:20:10 2010] [notice] Child 3328: Released the start mutex
-[Tue Jun 15 11:20:11 2010] [notice] Child 3328: All worker threads have exited.
-[Tue Jun 15 11:20:11 2010] [notice] Child 3328: Child process is exiting
-[Tue Jun 15 11:20:11 2010] [notice] Parent: Child process exited successfully.
-[Wed Jun 16 13:29:08 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:29:08 2010] [notice] Digest: done
-[Wed Jun 16 13:29:11 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Wed Jun 16 13:29:11 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Wed Jun 16 13:29:11 2010] [notice] Parent: Created child process 1680
-[Wed Jun 16 13:29:12 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:29:12 2010] [notice] Digest: done
-[Wed Jun 16 13:29:13 2010] [notice] Child 1680: Child process is running
-[Wed Jun 16 13:29:13 2010] [notice] Child 1680: Acquired the start mutex.
-[Wed Jun 16 13:29:13 2010] [notice] Child 1680: Starting 150 worker threads.
-[Wed Jun 16 13:29:13 2010] [notice] Child 1680: Starting thread to listen on port 80.
-[Wed Jun 16 13:29:13 2010] [notice] Child 1680: Starting thread to listen on port 443.
-[Wed Jun 16 13:29:59 2010] [error] [client 127.0.0.1] File does not exist: C:/temp/xampplite/htdocs/favicon.ico
-[Wed Jun 16 13:30:02 2010] [error] [client 127.0.0.1] File does not exist: C:/temp/xampplite/htdocs/favicon.ico
-[Wed Jun 16 13:49:10 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Wed Jun 16 13:49:10 2010] [notice] Child 1680: Exit event signaled. Child process is ending.
-[Wed Jun 16 13:49:11 2010] [notice] Child 1680: Released the start mutex
-[Wed Jun 16 13:49:12 2010] [notice] Child 1680: All worker threads have exited.
-[Wed Jun 16 13:49:12 2010] [notice] Child 1680: Child process is exiting
-[Wed Jun 16 13:49:12 2010] [notice] Parent: Child process exited successfully.
-[Wed Jun 16 13:50:03 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:50:03 2010] [notice] Digest: done
-[Wed Jun 16 13:50:03 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Wed Jun 16 13:50:03 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Wed Jun 16 13:50:03 2010] [notice] Parent: Created child process 3812
-[Wed Jun 16 13:50:04 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:50:04 2010] [notice] Digest: done
-[Wed Jun 16 13:50:05 2010] [notice] Child 3812: Child process is running
-[Wed Jun 16 13:50:05 2010] [notice] Child 3812: Acquired the start mutex.
-[Wed Jun 16 13:50:05 2010] [notice] Child 3812: Starting 150 worker threads.
-[Wed Jun 16 13:50:05 2010] [notice] Child 3812: Starting thread to listen on port 443.
-[Wed Jun 16 13:50:05 2010] [notice] Child 3812: Starting thread to listen on port 80.
-[Wed Jun 16 13:50:45 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Wed Jun 16 13:50:45 2010] [notice] Child 3812: Exit event signaled. Child process is ending.
-[Wed Jun 16 13:50:46 2010] [notice] Child 3812: Released the start mutex
-[Wed Jun 16 13:50:47 2010] [notice] Child 3812: All worker threads have exited.
-[Wed Jun 16 13:50:47 2010] [notice] Child 3812: Child process is exiting
-[Wed Jun 16 13:50:47 2010] [notice] Parent: Child process exited successfully.
-[Wed Jun 16 13:50:51 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:50:51 2010] [notice] Digest: done
-[Wed Jun 16 13:50:52 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Wed Jun 16 13:50:52 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Wed Jun 16 13:50:52 2010] [notice] Parent: Created child process 2760
-[Wed Jun 16 13:50:53 2010] [notice] Digest: generating secret for digest authentication ...
-[Wed Jun 16 13:50:53 2010] [notice] Digest: done
-[Wed Jun 16 13:50:54 2010] [notice] Child 2760: Child process is running
-[Wed Jun 16 13:50:54 2010] [notice] Child 2760: Acquired the start mutex.
-[Wed Jun 16 13:50:54 2010] [notice] Child 2760: Starting 150 worker threads.
-[Wed Jun 16 13:50:54 2010] [notice] Child 2760: Starting thread to listen on port 443.
-[Wed Jun 16 13:50:54 2010] [notice] Child 2760: Starting thread to listen on port 80.
-[Wed Jun 16 14:36:56 2010] [error] [client 127.0.0.1] File does not exist: C:/temp/xampplite/htdocs/cake
-[Wed Jun 16 14:45:49 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Wed Jun 16 14:45:49 2010] [notice] Child 2760: Exit event signaled. Child process is ending.
-[Wed Jun 16 14:45:50 2010] [notice] Child 2760: Released the start mutex
-[Wed Jun 16 14:45:51 2010] [notice] Child 2760: All worker threads have exited.
-[Wed Jun 16 14:45:51 2010] [notice] Child 2760: Child process is exiting
-[Wed Jun 16 14:45:51 2010] [notice] Parent: Child process exited successfully.
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-httpd.exe: Syntax error on line 35 of C:/Profile/s5847066/Desktop/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-[Tue Jun 22 09:49:21 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 09:49:21 2010] [notice] Digest: done
-[Tue Jun 22 09:49:25 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Tue Jun 22 09:49:25 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Tue Jun 22 09:49:25 2010] [notice] Parent: Created child process 2816
-[Tue Jun 22 09:49:25 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 09:49:25 2010] [notice] Digest: done
-[Tue Jun 22 09:49:26 2010] [notice] Child 2816: Child process is running
-[Tue Jun 22 09:49:26 2010] [notice] Child 2816: Acquired the start mutex.
-[Tue Jun 22 09:49:26 2010] [notice] Child 2816: Starting 150 worker threads.
-[Tue Jun 22 09:49:26 2010] [notice] Child 2816: Starting thread to listen on port 443.
-[Tue Jun 22 09:49:26 2010] [notice] Child 2816: Starting thread to listen on port 80.
-[Tue Jun 22 11:54:42 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Tue Jun 22 11:54:42 2010] [notice] Child 2816: Exit event signaled. Child process is ending.
-[Tue Jun 22 11:54:43 2010] [notice] Child 2816: Released the start mutex
-[Tue Jun 22 11:54:44 2010] [notice] Child 2816: All worker threads have exited.
-[Tue Jun 22 11:54:44 2010] [notice] Child 2816: Child process is exiting
-[Tue Jun 22 11:54:45 2010] [notice] Parent: Child process exited successfully.
-httpd.exe: Syntax error on line 35 of F:/dire2k7/Eigene Docs/uni ss10/wme/\xc3\xbc2a/wme2a/testProj/xampplite/apache/conf/httpd.conf: ServerRoot must be a valid directory
-[Tue Jun 22 14:26:27 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 14:26:27 2010] [notice] Digest: done
-[Tue Jun 22 14:26:38 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Tue Jun 22 14:26:38 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Tue Jun 22 14:26:38 2010] [notice] Parent: Created child process 16084
-[Tue Jun 22 14:26:39 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 14:26:39 2010] [notice] Digest: done
-[Tue Jun 22 14:26:39 2010] [notice] Child 16084: Child process is running
-[Tue Jun 22 14:26:39 2010] [notice] Child 16084: Acquired the start mutex.
-[Tue Jun 22 14:26:39 2010] [notice] Child 16084: Starting 150 worker threads.
-[Tue Jun 22 14:26:39 2010] [notice] Child 16084: Starting thread to listen on port 443.
-[Tue Jun 22 14:26:39 2010] [notice] Child 16084: Starting thread to listen on port 80.
-[Tue Jun 22 14:26:54 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Tue Jun 22 14:26:54 2010] [notice] Child 16084: Exit event signaled. Child process is ending.
-[Tue Jun 22 14:26:55 2010] [notice] Child 16084: Released the start mutex
-[Tue Jun 22 14:26:56 2010] [notice] Child 16084: All worker threads have exited.
-[Tue Jun 22 14:26:56 2010] [notice] Child 16084: Child process is exiting
-[Tue Jun 22 14:26:56 2010] [notice] Parent: Child process exited successfully.
-[Tue Jun 22 14:27:03 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 14:27:03 2010] [notice] Digest: done
-[Tue Jun 22 14:27:03 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
-[Tue Jun 22 14:27:03 2010] [notice] Server built: Nov 11 2009 14:29:03
-[Tue Jun 22 14:27:03 2010] [notice] Parent: Created child process 4620
-[Tue Jun 22 14:27:04 2010] [notice] Digest: generating secret for digest authentication ...
-[Tue Jun 22 14:27:04 2010] [notice] Digest: done
-[Tue Jun 22 14:27:04 2010] [notice] Child 4620: Child process is running
-[Tue Jun 22 14:27:04 2010] [notice] Child 4620: Acquired the start mutex.
-[Tue Jun 22 14:27:04 2010] [notice] Child 4620: Starting 150 worker threads.
-[Tue Jun 22 14:27:04 2010] [notice] Child 4620: Starting thread to listen on port 443.
-[Tue Jun 22 14:27:04 2010] [notice] Child 4620: Starting thread to listen on port 80.
-[Tue Jun 22 14:31:13 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:31:31 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:31:43 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:35:17 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:35:18 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:35:30 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:35:41 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:35:48 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:41:20 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:41:21 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:41:50 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:41:51 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:42:24 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:42:38 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:43:22 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:43:31 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:43:37 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:43:46 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:44:11 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:44:19 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 14:44:27 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment
-[Tue Jun 22 15:01:49 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:02:23 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:02:29 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:02:49 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:07:59 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:08:28 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:08:53 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:09:02 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:19:21 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:20:04 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:20:43 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:20:50 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:21:15 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:23:28 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:23:29 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:24:12 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:24:26 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:24:43 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:24:51 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:28:01 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:41:22 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:42:39 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:42:53 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1
-[Tue Jun 22 15:54:30 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1&user_id=1
-[Tue Jun 22 15:54:59 2010] [error] [client 192.168.0.107] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://192.168.0.107/cakephp/comment?id=1&user_id=1
-[Tue Jun 22 16:24:56 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Tue Jun 22 16:24:56 2010] [notice] Child 4620: Exit event signaled. Child process is ending.
-[Tue Jun 22 16:24:57 2010] [notice] Child 4620: Released the start mutex
-[Tue Jun 22 16:24:58 2010] [notice] Child 4620: All worker threads have exited.
-[Tue Jun 22 16:24:59 2010] [notice] Child 4620: Child process is exiting
-[Tue Jun 22 16:24:59 2010] [notice] Parent: Child process exited successfully.
+(OS 10048)Normalerweise darf jede Socketadresse (Protokoll, Netzwerkadresse oder Anschluss) nur jeweils einmal verwendet werden.  : make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+(OS 10048)Normalerweise darf jede Socketadresse (Protokoll, Netzwerkadresse oder Anschluss) nur jeweils einmal verwendet werden.  : make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+[Fri Jun 25 12:01:17 2010] [notice] Digest: generating secret for digest authentication ...
+[Fri Jun 25 12:01:17 2010] [notice] Digest: done
+[Fri Jun 25 12:01:32 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Fri Jun 25 12:01:32 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Fri Jun 25 12:01:32 2010] [notice] Parent: Created child process 5660
+[Fri Jun 25 12:01:32 2010] [notice] Digest: generating secret for digest authentication ...
+[Fri Jun 25 12:01:32 2010] [notice] Digest: done
+[Fri Jun 25 12:01:33 2010] [notice] Child 5660: Child process is running
+[Fri Jun 25 12:01:33 2010] [notice] Child 5660: Acquired the start mutex.
+[Fri Jun 25 12:01:33 2010] [notice] Child 5660: Starting 150 worker threads.
+[Fri Jun 25 12:01:33 2010] [notice] Child 5660: Starting thread to listen on port 443.
+[Fri Jun 25 12:01:33 2010] [notice] Child 5660: Starting thread to listen on port 80.
+[Fri Jun 25 12:02:00 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 25 12:02:00 2010] [notice] Child 5660: Exit event signaled. Child process is ending.
+[Fri Jun 25 12:02:01 2010] [notice] Child 5660: Released the start mutex
+[Fri Jun 25 12:02:02 2010] [notice] Child 5660: All worker threads have exited.
+[Fri Jun 25 12:02:02 2010] [notice] Child 5660: Child process is exiting
+[Fri Jun 25 12:02:02 2010] [notice] Parent: Child process exited successfully.
+[Fri Jun 25 12:13:28 2010] [notice] Digest: generating secret for digest authentication ...
+[Fri Jun 25 12:13:28 2010] [notice] Digest: done
+[Fri Jun 25 12:13:28 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Fri Jun 25 12:13:28 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Fri Jun 25 12:13:28 2010] [notice] Parent: Created child process 13076
+[Fri Jun 25 12:13:29 2010] [notice] Digest: generating secret for digest authentication ...
+[Fri Jun 25 12:13:29 2010] [notice] Digest: done
+[Fri Jun 25 12:13:29 2010] [notice] Child 13076: Child process is running
+[Fri Jun 25 12:13:29 2010] [notice] Child 13076: Acquired the start mutex.
+[Fri Jun 25 12:13:29 2010] [notice] Child 13076: Starting 150 worker threads.
+[Fri Jun 25 12:13:29 2010] [notice] Child 13076: Starting thread to listen on port 80.
+[Fri Jun 25 12:13:29 2010] [notice] Child 13076: Starting thread to listen on port 443.
+[Fri Jun 25 13:21:30 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico
+[Fri Jun 25 13:21:33 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico
+[Fri Jun 25 13:44:27 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/imp, referer: http://www.htmlite.com/php008.php
+[Fri Jun 25 16:53:45 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?limit=10&searchterm=hdr%20der%20%F6%C4l
+[Sat Jun 26 02:50:21 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 26 02:50:21 2010] [notice] Child 13076: Exit event signaled. Child process is ending.
+[Sat Jun 26 02:50:22 2010] [notice] Child 13076: Released the start mutex
+[Sat Jun 26 02:50:23 2010] [notice] Child 13076: All worker threads have exited.
+[Sat Jun 26 02:50:23 2010] [notice] Child 13076: Child process is exiting
+[Sat Jun 26 02:50:23 2010] [notice] Parent: Child process exited successfully.
+(OS 10048)Normalerweise darf jede Socketadresse (Protokoll, Netzwerkadresse oder Anschluss) nur jeweils einmal verwendet werden.  : make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+[Sat Jun 26 11:19:09 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 11:19:09 2010] [notice] Digest: done
+[Sat Jun 26 11:19:12 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Sat Jun 26 11:19:12 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Sat Jun 26 11:19:12 2010] [notice] Parent: Created child process 19060
+[Sat Jun 26 11:19:12 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 11:19:12 2010] [notice] Digest: done
+[Sat Jun 26 11:19:13 2010] [notice] Child 19060: Child process is running
+[Sat Jun 26 11:19:13 2010] [notice] Child 19060: Acquired the start mutex.
+[Sat Jun 26 11:19:13 2010] [notice] Child 19060: Starting 150 worker threads.
+[Sat Jun 26 11:19:13 2010] [notice] Child 19060: Starting thread to listen on port 443.
+[Sat Jun 26 11:19:13 2010] [notice] Child 19060: Starting thread to listen on port 80.
+[Sat Jun 26 16:48:01 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/imp, referer: http://bytes.com/topic/php/answers/7382-how-add-element-php-array-dynamically
+[Sat Jun 26 17:07:04 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 26 17:07:04 2010] [notice] Child 19060: Exit event signaled. Child process is ending.
+[Sat Jun 26 17:07:05 2010] [notice] Child 19060: Released the start mutex
+[Sat Jun 26 17:07:06 2010] [notice] Child 19060: All worker threads have exited.
+[Sat Jun 26 17:07:06 2010] [notice] Child 19060: Child process is exiting
+[Sat Jun 26 17:07:06 2010] [notice] Parent: Child process exited successfully.
