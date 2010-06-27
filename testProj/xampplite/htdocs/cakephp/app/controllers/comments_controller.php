@@ -1,19 +1,16 @@
 ﻿<?php
-
 class CommentsController extends AppController {
 
     var $name = "Comments";
-	var $components = array('XmlBuilder','Session','RequestHandler');
+	var $components = array('RequestHandler');
 	var $helpers = array('Xml');
-
-    function index() {
+	
+	function index() {
 	
 		// URL Beispiele
 		// http://localhost/cakephp/comments?id=2
 		// http://localhost/cakephp/comments?photoid=1
 		// http://localhost/cakephp/comments?id=1&photoid=1
-		
-		echo "DEBUGGING <br />-------------<br />";
 		
 		$allowedQryParams = array(
 			"id"=>"id",
@@ -54,7 +51,7 @@ class CommentsController extends AppController {
 								if (in_array($val, $allowedCtrlParams["format"]))
 								{
 									$parsedParams["format"] = $val;
-									if ($this->params['url']['ext']) $this->params['url']['ext'] = $parsedParams["format"];
+									if (array_key_exists('ext', $this->params['url'])) $this->params['url']['ext'] = $parsedParams["format"];
 								}
 								else 
 									$invalidParams = true;	
@@ -63,7 +60,7 @@ class CommentsController extends AppController {
 								
 							case "apikey":
 							{ 	//TODO
-								echo $key . " = " . $val . "<br />";
+								//echo $key . " = " . $val . "<br />";
 								break;
 							}
 						}
@@ -82,7 +79,7 @@ class CommentsController extends AppController {
 			if ($urlParams) 
 			{
 				$parsedParams["urlparams"] = array('AND' => $urlParams);
-				echo var_dump($parsedParams["urlparams"])."<br />";
+				//echo var_dump($parsedParams["urlparams"])."<br />";
 			}
 			
 			// conditions/where-clause available OR null
@@ -108,12 +105,14 @@ class CommentsController extends AppController {
 				case "json":
 					//TODO
 					break;
-				default: //="xml"
+				default: //"xml"
 					//TODO
-					$this->set("results",null);
-					$b = $this->XmlBuilder->buildComment();
-					$this->set("resultsx",$result);
-					//$this->render('/comments/xml');
+					$this->set("results",$result);
+					$this->render('\comments\xml\index','\xml\default',null);
+					//$this->layout="xml";
+					//$this->redirect("/comments/index");
+					//$this->autoRender = false;
+					//$this->render('\comments\index','\xml\default',null);
 					break;
 			}
 		}
@@ -123,6 +122,5 @@ class CommentsController extends AppController {
 			$this->set("results",null);
 		}
 	}
-	
 }
 ?>

@@ -1,4 +1,4 @@
-﻿<?php if($results) { ?>
+﻿<?php if($results) { // builds a simple table from db results ?>
 	<table>
 	  <tr>
 		<th>title</th>
@@ -24,22 +24,3 @@
 	  <?php }?>
 	</table> 
 <?php }?>
-<?php 
-	if($resultsx) { 
-		$x = $xml;
-		$xs = "";
-		$xs .= $x->header();
-		$x->addNS('pp', 'http://www-mmt.inf.tu-dresden.de/Lehre/Sommersemester_10/Vo_WME/Uebung/material/photonpainter');
-			$xs .=  $x->elem('pp:comments', null, null, false).">";
-				foreach ($resultsx as $r) {
-					echo var_dump($r['Comment']);
-					$comment_text = $r['Comment']['comment_text'];
-					unset($r['Comment']['comment_text']);
-					unset($r['Comment']['modified']);
-					$xs .=  $x->elem('pp:comment', $r['Comment'], $comment_text, false);
-					$xs .=  $x->closeElem();
-				}
-			$xs .=  $x->closeElem();	
-		?><textarea style="height:200px; font-size:10pt;"><?php echo $xs;?></textarea><?php
-	}
-?>  

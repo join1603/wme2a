@@ -66,3 +66,129 @@ Unable to open logs
 [Sat Jun 26 17:07:06 2010] [notice] Child 19060: All worker threads have exited.
 [Sat Jun 26 17:07:06 2010] [notice] Child 19060: Child process is exiting
 [Sat Jun 26 17:07:06 2010] [notice] Parent: Child process exited successfully.
+[Sat Jun 26 18:12:40 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:12:40 2010] [notice] Digest: done
+[Sat Jun 26 18:12:42 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Sat Jun 26 18:12:42 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Sat Jun 26 18:12:42 2010] [notice] Parent: Created child process 39420
+[Sat Jun 26 18:12:43 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:12:43 2010] [notice] Digest: done
+[Sat Jun 26 18:12:44 2010] [notice] Child 39420: Child process is running
+[Sat Jun 26 18:12:44 2010] [notice] Child 39420: Acquired the start mutex.
+[Sat Jun 26 18:12:44 2010] [notice] Child 39420: Starting 150 worker threads.
+[Sat Jun 26 18:12:44 2010] [notice] Child 39420: Starting thread to listen on port 443.
+[Sat Jun 26 18:12:44 2010] [notice] Child 39420: Starting thread to listen on port 80.
+[Sat Jun 26 18:21:52 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/p
+[Sat Jun 26 18:22:37 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 26 18:22:37 2010] [notice] Child 39420: Exit event signaled. Child process is ending.
+[Sat Jun 26 18:22:38 2010] [notice] Child 39420: Released the start mutex
+[Sat Jun 26 18:22:39 2010] [notice] Child 39420: All worker threads have exited.
+[Sat Jun 26 18:22:39 2010] [notice] Child 39420: Child process is exiting
+[Sat Jun 26 18:22:39 2010] [notice] Parent: Child process exited successfully.
+[Sat Jun 26 18:24:56 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:24:56 2010] [notice] Digest: done
+[Sat Jun 26 18:24:56 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Sat Jun 26 18:24:56 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Sat Jun 26 18:24:56 2010] [notice] Parent: Created child process 44684
+[Sat Jun 26 18:24:57 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:24:57 2010] [notice] Digest: done
+[Sat Jun 26 18:24:57 2010] [notice] Child 44684: Child process is running
+[Sat Jun 26 18:24:57 2010] [notice] Child 44684: Acquired the start mutex.
+[Sat Jun 26 18:24:57 2010] [notice] Child 44684: Starting 150 worker threads.
+[Sat Jun 26 18:24:57 2010] [notice] Child 44684: Starting thread to listen on port 443.
+[Sat Jun 26 18:24:57 2010] [notice] Child 44684: Starting thread to listen on port 80.
+[Sat Jun 26 18:25:22 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 26 18:25:22 2010] [notice] Child 44684: Exit event signaled. Child process is ending.
+[Sat Jun 26 18:25:23 2010] [notice] Child 44684: Released the start mutex
+[Sat Jun 26 18:25:24 2010] [notice] Child 44684: All worker threads have exited.
+[Sat Jun 26 18:25:24 2010] [notice] Child 44684: Child process is exiting
+[Sat Jun 26 18:25:24 2010] [notice] Parent: Child process exited successfully.
+[Sat Jun 26 18:33:28 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:33:28 2010] [notice] Digest: done
+[Sat Jun 26 18:33:44 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Sat Jun 26 18:33:44 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Sat Jun 26 18:33:44 2010] [notice] Parent: Created child process 3352
+[Sat Jun 26 18:33:45 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 18:33:45 2010] [notice] Digest: done
+[Sat Jun 26 18:33:46 2010] [notice] Child 3352: Child process is running
+[Sat Jun 26 18:33:46 2010] [notice] Child 3352: Acquired the start mutex.
+[Sat Jun 26 18:33:46 2010] [notice] Child 3352: Starting 150 worker threads.
+[Sat Jun 26 18:33:46 2010] [notice] Child 3352: Starting thread to listen on port 443.
+[Sat Jun 26 18:33:46 2010] [notice] Child 3352: Starting thread to listen on port 80.
+[Sat Jun 26 18:35:18 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico
+[Sat Jun 26 19:16:51 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico
+[Sat Jun 26 19:17:21 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments?format=xml
+[Sat Jun 26 19:17:23 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments?format=xml
+[Sat Jun 26 20:09:48 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/imp, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:09:51 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:04 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:05 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:32 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:35 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:38 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:42 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/imp, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:47 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:49 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:10:51 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/st, referer: http://i1.scribdassets.com/ads/pubmatic/Scribd_728_BTF_US.html
+[Sat Jun 26 20:19:03 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 26 20:19:03 2010] [notice] Child 3352: Exit event signaled. Child process is ending.
+[Sat Jun 26 20:19:04 2010] [notice] Child 3352: Released the start mutex
+[Sat Jun 26 20:19:05 2010] [notice] Child 3352: All worker threads have exited.
+[Sat Jun 26 20:19:05 2010] [notice] Child 3352: Child process is exiting
+[Sat Jun 26 20:19:05 2010] [notice] Parent: Child process exited successfully.
+[Sat Jun 26 20:19:14 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 20:19:14 2010] [notice] Digest: done
+[Sat Jun 26 20:19:15 2010] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Sat Jun 26 20:19:15 2010] [notice] Server built: Nov 11 2009 14:29:03
+[Sat Jun 26 20:19:15 2010] [notice] Parent: Created child process 6048
+[Sat Jun 26 20:19:15 2010] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 26 20:19:15 2010] [notice] Digest: done
+[Sat Jun 26 20:19:16 2010] [notice] Child 6048: Child process is running
+[Sat Jun 26 20:19:16 2010] [notice] Child 6048: Acquired the start mutex.
+[Sat Jun 26 20:19:16 2010] [notice] Child 6048: Starting 150 worker threads.
+[Sat Jun 26 20:19:16 2010] [notice] Child 6048: Starting thread to listen on port 443.
+[Sat Jun 26 20:19:16 2010] [notice] Child 6048: Starting thread to listen on port 80.
+[Sat Jun 26 20:29:35 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments?format=xml
+[Sat Jun 26 20:33:07 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:44:30 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:46:05 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:46:06 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:46:11 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:46:12 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:48:20 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:48:22 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:51:41 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:51:53 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:52:22 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:52:24 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:53:21 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sat Jun 26 20:55:31 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?format=xml&id=1
+[Sun Jun 27 09:40:05 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico
+[Sun Jun 27 09:46:10 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:47:09 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:48:19 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:48:55 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:49:21 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:50:04 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:50:25 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:53:21 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:53:29 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:55:34 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 09:56:03 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 09:56:19 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 09:58:24 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 09:59:31 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:00:46 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:01:58 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 10:01:58 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 10:02:54 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/comments/?id=1&format=xml
+[Sun Jun 27 10:03:57 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:04:59 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:15:06 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:15:19 2010] [error] [client 127.0.0.1] File does not exist: E:/wme2a/testProj/xampplite/htdocs/favicon.ico, referer: http://localhost/cakephp/photos/?id=1&format=xml
+[Sun Jun 27 10:31:57 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 27 10:31:57 2010] [notice] Child 6048: Exit event signaled. Child process is ending.
+[Sun Jun 27 10:31:58 2010] [notice] Child 6048: Released the start mutex
+[Sun Jun 27 10:31:59 2010] [notice] Child 6048: All worker threads have exited.
+[Sun Jun 27 10:31:59 2010] [notice] Child 6048: Child process is exiting
+[Sun Jun 27 10:31:59 2010] [notice] Parent: Child process exited successfully.

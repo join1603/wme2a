@@ -126,23 +126,6 @@ class Photo extends AppModel {
 			'counterQuery' => ''
 		)
 	);
-	
-	/*
-	var $hasAndBelongsToMany = array(
-		'Tag' => array(
-			'className' => 'Tag',
-			'joinTable'	=> 'photos_tags',
-			'foreignKey' => 'photo_id',
-		    'associationForeignKey'  => 'tag_id',
-			'conditions'             => '',
-			'order'                  => '',
-			'limit'                  => '',
-			'unique'                 => true,
-			'finderQuery'            => '',
-			'deleteQuery'            => '',
-			'insertQuery'            => ''
-		)
-	);
-	*/
+
 }
 ?>

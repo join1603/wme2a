@@ -1,5 +1,4 @@
 <?php
-
 class PhotosController extends AppController {
 
 	var $name = 'Photos';
@@ -11,8 +10,6 @@ class PhotosController extends AppController {
 		// URL Beispiele
 		// http://localhost/cakephp/photos?id=2
 		// http://localhost/cakephp/photos?tags=winter,eis&limit=10
-		
-		echo "DEBUGGING <br />-------------<br />";
 		
 		$allowedQryParams = array("id"=>"id");
 		$allowedCtrlParams = array(
@@ -82,7 +79,6 @@ class PhotosController extends AppController {
 									}
 									//$parsedParams["tags"] = array('AND' => $tgs);
 									$parsedParams["tags"] = array("`Tag`.`tag_name` IN (".substr($s,0,strlen($s)-1).")");
-									echo var_dump($parsedParams["tags"])."<br />";
 								}
 								break;
 							}
@@ -138,7 +134,6 @@ class PhotosController extends AppController {
 			if ($urlParams) 
 			{
 				$parsedParams["urlparams"] = array('AND' => $urlParams);
-				echo var_dump($parsedParams["urlparams"])."<br />";
 			}
 			
 			// join photos <> tags
@@ -183,14 +178,13 @@ class PhotosController extends AppController {
 				case "html": 
 					echo "<br />STATUS:<b><font color='green'>&nbsp;OK</font><b><br /><br />";
 					$this->set("results",$result);
-					$this->set("resultsx",null);
 					break;
 				case "json": 
 					//TODO
 					break;
-				default: //="xml"
-					$this->set("results",null);
-					$this->set("resultsx",$result);
+				default: //"xml"
+					$this->set("results",$result);
+					$this->render('\photos\xml\index','\xml\default',null);
 					break;
 			}
 		}

@@ -147,3 +147,64 @@ Version: '5.1.41'  socket: ''  port: 3306  Source distribution
 100626 17:07:12  InnoDB: Shutdown completed; log sequence number 0 83272
 100626 17:07:12 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
 
+100626 18:12:38 [Note] Plugin 'FEDERATED' is disabled.
+100626 18:12:38  InnoDB: Log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 did not exist: new to be created
+100626 18:12:38 [ERROR] Plugin 'InnoDB' init function returned error.
+100626 18:12:38 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100626 18:12:39 [Note] Event Scheduler: Loaded 0 events
+100626 18:12:39 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100626 18:22:33 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100626 18:22:34 [Note] Event Scheduler: Purging the queue. 0 events
+100626 18:22:36 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 2  user: 'wme2a'
+
+100626 18:22:36 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 1  user: 'wme2a'
+
+100626 18:22:36 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100626 18:24:54 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100626 18:24:54 [ERROR] Plugin 'InnoDB' init function returned error.
+100626 18:24:54 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100626 18:24:55 [Note] Event Scheduler: Loaded 0 events
+100626 18:24:55 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100626 18:25:26 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100626 18:25:27 [Note] Event Scheduler: Purging the queue. 0 events
+100626 18:25:27 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100626 18:33:15 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100626 18:33:16 [ERROR] Plugin 'InnoDB' init function returned error.
+100626 18:33:16 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100626 18:33:17 [Note] Event Scheduler: Loaded 0 events
+100626 18:33:17 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100626 20:18:59 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100626 20:19:00 [Note] Event Scheduler: Purging the queue. 0 events
+100626 20:19:02 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 31  user: 'wme2a'
+
+100626 20:19:02 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 30  user: 'wme2a'
+
+100626 20:19:02 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 29  user: 'wme2a'
+
+100626 20:19:02 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100626 20:19:08 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100626 20:19:08 [ERROR] Plugin 'InnoDB' init function returned error.
+100626 20:19:08 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100626 20:19:08 [Note] Event Scheduler: Loaded 0 events
+100626 20:19:08 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100627 10:32:02 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100627 10:32:03 [Note] Event Scheduler: Purging the queue. 0 events
+100627 10:32:03 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
