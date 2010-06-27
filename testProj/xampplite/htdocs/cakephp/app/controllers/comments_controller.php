@@ -3,7 +3,7 @@ class CommentsController extends AppController {
 
     var $name = "Comments";
 	var $components = array('RequestHandler');
-	var $helpers = array('Xml');
+	var $helpers = array('Xmlbuilder');
 	
 	function index() {
 	
@@ -112,7 +112,6 @@ class CommentsController extends AppController {
 					//$this->layout="xml";
 					//$this->redirect("/comments/index");
 					//$this->autoRender = false;
-					//$this->render('\comments\index','\xml\default',null);
 					break;
 			}
 		}

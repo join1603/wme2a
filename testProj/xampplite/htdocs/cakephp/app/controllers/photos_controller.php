@@ -3,7 +3,7 @@ class PhotosController extends AppController {
 
 	var $name = 'Photos';
 	var $components = array('RequestHandler');
-	var $helpers = array('Xml');
+	var $helpers = array('Xmlbuilder');
 
 	function index() {
 		
