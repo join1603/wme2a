@@ -3,7 +3,7 @@ class PhotosController extends AppController {
 
 	var $name = 'Photos';
 	var $components = array('RequestHandler');
-	var $helpers = array('Xmlbuilder');
+	var $helpers = array('Xmlbuilder','Jsonbuilder');
 
 	function index() {
 		
@@ -47,7 +47,7 @@ class PhotosController extends AppController {
 				if (array_key_exists($key, $allowedQryParams))
 				{
 					$val = preg_replace('/[^a-zA-Z0-9öÖüÜäÄß_]/','',$val);
-					$urlParams = array_merge($urlParams,array(array($model.'.'.$key => $val)));
+					$urlParams = array_merge($urlParams,array(array($model.'.'.$allowedQryParams[$key] => $val)));
 				}
 				else 
 				{
@@ -181,10 +181,12 @@ class PhotosController extends AppController {
 					break;
 				case "json": 
 					//TODO
+					$this->set("results",$result);
+					$this->render('\\'.$model.'s\json\index','\json\default',null);
 					break;
 				default: //"xml"
 					$this->set("results",$result);
-					$this->render('\photos\xml\index','\xml\default',null);
+					$this->render('\\'.$model.'s\xml\index','\xml\default',null);
 					break;
 			}
 		}

@@ -3,7 +3,7 @@ class CommentsController extends AppController {
 
     var $name = "Comments";
 	var $components = array('RequestHandler');
-	var $helpers = array('Xmlbuilder');
+	var $helpers = array('Xmlbuilder','Jsonbuilder');
 	
 	function index() {
 	
@@ -39,7 +39,7 @@ class CommentsController extends AppController {
 				if (array_key_exists($key, $allowedQryParams))
 				{
 					$val = preg_replace('/[^a-zA-Z0-9öÖüÜäÄß_]/','',$val);
-					$urlParams = array_merge($urlParams,array(array($model.'.'.$key => $val)));
+					$urlParams = array_merge($urlParams,array(array($model.'.'.$allowedQryParams[$key] => $val)));
 				}
 				else 
 				{
@@ -102,13 +102,15 @@ class CommentsController extends AppController {
 					$this->set("results",$result);
 					break;
 				}
-				case "json":
-					//TODO
-					break;
-				default: //"xml"
+				case "json": 
 					//TODO
 					$this->set("results",$result);
-					$this->render('\comments\xml\index','\xml\default',null);
+					$this->render('\\'.$model.'s\json\index','\json\default',null);
+					break;
+				default: //"xml"
+					$this->set("results",$result);
+					$this->render('\\'.$model.'s\xml\index','\xml\default',null);
+					break;
 					//$this->layout="xml";
 					//$this->redirect("/comments/index");
 					//$this->autoRender = false;
