@@ -208,3 +208,72 @@ Version: '5.1.41'  socket: ''  port: 3306  Source distribution
 100627 10:32:03 [Note] Event Scheduler: Purging the queue. 0 events
 100627 10:32:03 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
 
+100627 12:57:56 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100627 12:57:56 [ERROR] Plugin 'InnoDB' init function returned error.
+100627 12:57:56 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100627 12:57:57 [Note] Event Scheduler: Loaded 0 events
+100627 12:57:57 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100627 20:18:11 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100627 20:18:12 [Note] Event Scheduler: Purging the queue. 0 events
+100627 20:18:14 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 2  user: 'wme2a'
+
+100627 20:18:14 [Warning] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Forcing close of thread 1  user: 'wme2a'
+
+100627 20:18:14 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100627 22:30:30 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100627 22:30:30 [ERROR] Plugin 'InnoDB' init function returned error.
+100627 22:30:30 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100627 22:30:30 [Note] Event Scheduler: Loaded 0 events
+100627 22:30:30 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100628 17:16:52 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100628 17:16:53 [Note] Event Scheduler: Purging the queue. 0 events
+100628 17:16:53 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100628 22:45:21 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100628 22:45:24 [ERROR] Plugin 'InnoDB' init function returned error.
+100628 22:45:24 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100628 22:45:28 [Note] Event Scheduler: Loaded 0 events
+100628 22:45:28 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100628 22:56:36 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100628 22:56:37 [Note] Event Scheduler: Purging the queue. 0 events
+100628 22:56:37 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100629  0:34:10 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100629  0:34:10 [ERROR] Plugin 'InnoDB' init function returned error.
+100629  0:34:10 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100629  0:34:11 [Note] Event Scheduler: Loaded 0 events
+100629  0:34:11 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100629  0:34:40 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100629  0:34:41 [Note] Event Scheduler: Purging the queue. 0 events
+100629  0:34:41 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+100629 12:56:29 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: Error: log file \wme2a\testProj\xampplite\mysql\data\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+100629 12:56:29 [ERROR] Plugin 'InnoDB' init function returned error.
+100629 12:56:29 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+100629 12:56:30 [Note] Event Scheduler: Loaded 0 events
+100629 12:56:30 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+100629 13:01:42 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+100629 13:01:43 [Note] Event Scheduler: Purging the queue. 0 events
+100629 13:01:43 [Note] E:\wme2a\testProj\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
